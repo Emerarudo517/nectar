@@ -10,14 +10,13 @@ const VerificationScreen = ({ navigation }) => {
   };
 
   const handleNext = () => {
-    // You can implement logic for handling the next action
   };
 
   const handleResendCode = () => {
     setNotificationVisible(true);
     setTimeout(() => {
       setNotificationVisible(false);
-    }, 3000); // Hide notification after 3 seconds
+    }, 3000);
   };
 
   const showNotification = () => {
