@@ -4,7 +4,6 @@ import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
 
 const WelcomeScreen = ({ navigation }) => {
   useEffect(() => {
-    // Add any additional logic or actions on component mount
   }, []);
 
   const handleGetStarted = () => {
